@@ -1,0 +1,14 @@
+.logo {
+  @extend %logo;
+  color: $title-text-color;
+  margin-right: 80px;
+}
+
+.logo-web {
+  color: $accent-color;
+}
+.logo-down {
+  @extend %logo;
+  color: $secondary-text-color;
+  margin-bottom: 20px;
+}
